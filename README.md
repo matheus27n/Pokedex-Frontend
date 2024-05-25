@@ -29,7 +29,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias
 ## Demonstração
 
 Insira um gif ou um link de alguma demonstração
-![alt text](image.png)
+<img src="https://exemplo.com/logo.png" alt="Screenshot da pagina web Pokedex">
 
 ## Funcionalidades
 
