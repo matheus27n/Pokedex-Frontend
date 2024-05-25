@@ -23,5 +23,5 @@ O projeto utiliza JavaScript para buscar dados da POKEAPI e exibi-los na página
 1. Clone o repositório e navegue até a pasta do projeto:
 
 ```bash
-git clone https://github.com/seu-usuario/pokedex.git
+git clone https://github.com/matheus27n/Pokedex-Frontend.git
 cd pokedex
