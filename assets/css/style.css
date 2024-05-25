@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: OCR A Std, monospace;
+    max-width: 100%;
+}
+
+header{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.Search input{
+    width: 24%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+/*preciso ter varias colunas com 4 pokemon cada*/
+.pokemon-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colunas de largura igual */
+    grid-auto-rows: auto; /* Altura automática para as linhas */
+    gap: 20px; /* Espaçamento entre os Pokémon */
+    margin: 1rem;
+}
+
+.pokemon-grid img{
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.pokemon{
+    background: rgb(9,121,83);
+    background: linear-gradient(90deg, rgba(9,121,83,0.21752450980392157) 25%, rgba(39,156,27,0.2091211484593838) 100%);
+    border: 1px solid #000000; /* Borda preta */
+    border-radius: 5px; /* Borda arredondada */
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+
+.pokemon:hover{
+    transform: scale(1.05); /* Aumenta o tamanho do Pokémon em 5% */
+    box-shadow: 0 0 10px #000; /* Adiciona uma sombra ao redor do Pokémon */
+}
+
+.logo-pokedex{
+    cursor: pointer;
+}
+
