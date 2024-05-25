@@ -1,39 +1,27 @@
-
 # Pokedex
 
-O projeto Pokedex é uma página web que contém dados de Pokémon. Esses dados são recebidos a partir da API de Pokémon, chamada POKEAPI. A partir dessa API, foram consumidas informações como nomes, tipos, habilidades e sprites dos Pokémon.
+O projeto Pokedex é uma página web que contém dados de pokemons. Esses dados são recebidos a partir de uma API de pokemon, chamada POKEAPI.
 
+## Descrição
 
+O projeto consiste em exibir dados de pokémons consumidos da POKEAPI.
 
+![Pokedex Screenshot](images/seu_arquivo_de_imagem.png)
 
-## Stack Usadas
-Esse projeto foi desenvolvido com as seguintes tecnologias
-* HTML5
-* CSS3
-* JavaScript (ES6+)
+## Tecnologias Usadas
 
+- HTML5
+- CSS3
+- JavaScript (ES6+)
 
-## Autores
+## Como Funciona
 
-- [@Matheus Fagundes](https://github.com/matheus27n)
+O projeto utiliza JavaScript para buscar dados da POKEAPI e exibi-los na página web.
 
+## Começando
 
+1. Clone o repositório e navegue até a pasta do projeto:
 
-
-## Referência
-
- - [API](https://pokeapi.co/)
-
-
-
-## Demonstração
-
-Insira um gif ou um link de alguma demonstração
-<img src="https://exemplo.com/logo.png" alt="Screenshot da pagina web Pokedex">
-
-## Funcionalidades
-
-- Busca dos Pokemon no Search
-- Preview em tempo real
-- Responsivel
-
+```bash
+git clone https://github.com/seu-usuario/pokedex.git
+cd pokedex
