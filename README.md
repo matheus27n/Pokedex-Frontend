@@ -6,7 +6,7 @@ O projeto Pokedex é uma página web que contém dados de pokemons. Esses dados 
 
 O projeto consiste em exibir dados de pokémons consumidos da POKEAPI.
 
-![Pokedex Screenshot](images/seu_arquivo_de_imagem.png)
+![Pokedex Screenshot](https://github.com/matheus27n/Pokedex-Frontend/blob/main/assets/img/api.png)
 
 ## Tecnologias Usadas
 
